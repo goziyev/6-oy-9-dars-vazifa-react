@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&display=swap");
+
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 60px;
+}
+.card > div {
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.cardImage {
+  width: 400px;
+  height: 250px;
+}
+.cardImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.cardText {
+  margin: -30px auto;
+  margin-bottom: -50px;
+  width: 300px;
+  background-color: #1d1c20;
+  color: #fff;
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.cardBody {
+  font-size: 1rem;
+}
+.cardPrice {
+  width: 100px;
+  height: 100px;
+  background-color: #970c0a;
+  color: #fff;
+  margin-left: auto;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*======================
+    404 page
+=======================*/
+
+.page404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+  text-align: center;
+}
+
+.page404 img {
+  width: 100%;
+}
+
+.fourZeroFourBg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.fourZeroFourBg h1 {
+  font-size: 80px;
+  color:red;
+}
+
+.fourZeroFourBg h3 {
+  font-size: 80px;
+  color:red;
+}
+
+.link404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.contantBox404 {
+  margin-top: -50px;
+  color:red;
+}

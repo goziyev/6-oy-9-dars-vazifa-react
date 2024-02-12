@@ -1,0 +1,34 @@
+{
+    "products":[
+        {   "id":1,
+            "title":"Iphone 14",
+            "price":1200,
+            "description":"Holati yaxshi holatda"
+        },
+        {   "id":2,
+            "title":"Iphone 15",
+            "price":1400,
+            "description":"Holati yangi holatda"
+        },
+        {   "id":3,
+            "title":"Honor x8",
+            "price":800,
+            "description":"Ozgina ishlatilgan"
+        },
+        {   "id":4,
+            "title":"Redmi",
+            "price":300,
+            "description":"2 oy ishlatilgan"
+        },
+        {   "id":5,
+            "title":"Samsung",
+            "price":600,
+            "description":"Karobka dakumentlari bor"
+        },
+        {   "id":6,
+            "title":"OnePlus 9 Pro",
+            "price":1900,
+            "description":"Yangi"
+        }
+    ]
+}

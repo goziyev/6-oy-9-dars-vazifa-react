@@ -1,0 +1,25 @@
+
+.ul{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.link:hover{
+    border-color: white;
+}
